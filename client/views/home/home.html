@@ -1,20 +1,12 @@
 <template name="home">
-  <h1>Benvinguts a la botiga dels retocs</h1>
+  <h1>Hompage hola kè tal!!!</h1>
   
-  {{loginButtons}}
-  
-  {{#if currentUser}}
-  
-    {{#if page "view1"}}
-      {{> view1 }}
-    {{else}} {{#if page "view2"}}
-      {{> view2 }}
-    {{else}}
-      <p>page not found</p>
-    {{/if}}{{/if}}
-  
+  {{#if page "view1"}}
+    {{> view1 }}
+  {{else}} {{#if page "view2"}}
+    {{> view2 }}
   {{else}}
-    <h3>You need to login to continue</h3>  
-  {{/if}}
+    <p>page not found</p>
+  {{/if}}{{/if}}
   
 </template>

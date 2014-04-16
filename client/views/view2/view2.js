@@ -1,14 +1,6 @@
-Template.view2.helpers({
-  
-  greetings: function() {
-    return "Welcome to myfirstapp.";
-  },
-  
-  contact: function() {
-    return Contacts.find();     
-  }
-  
-});
+Template.view2.greeting = function () {
+  return "Welcome to myfirstapp.";
+};
 
 Template.view2.events({
   'click input': function () {
