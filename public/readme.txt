@@ -1,0 +1,1 @@
+Para instalar Twitter Bootstrap ejecutar el siguiente comando des de la linea de comandos: $meteor add bootstrap
