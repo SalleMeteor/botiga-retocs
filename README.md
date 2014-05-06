@@ -1,11 +1,11 @@
 La botiga dels retocs
 -----------------------------
 
-Te dependencies a aquests paquets
+És una petita web en la que es poden anar col·locant noves comandes.
 
-Es una petita web en la que es poden anar col·locant noves comandes
+Té dependències a aquests paquets:
 
- $ mrt add iron-router
+- $ mrt add iron-router
 - $ mrt add nprogress
 - $ mrt add blaze-layout
 
